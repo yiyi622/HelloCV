@@ -61,7 +61,7 @@ void processFrame(Mat const &frame)
 int main()
 {
     VideoCapture trafficlight;
-    trafficlight.open("../../TrafficLight.mp4");
+    trafficlight.open("../TrafficLight.mp4");
 
     if (!trafficlight.isOpened())
     {
@@ -74,7 +74,7 @@ int main()
     double fps = trafficlight.get(CAP_PROP_FPS);
 
     VideoWriter result;
-    result.open("../../result.avi", VideoWriter::fourcc('M', 'J', 'P', 'G'), fps, Size(row, col));
+    result.open("../result.avi", VideoWriter::fourcc('M', 'J', 'P', 'G'), fps, Size(row, col));
 
     Mat frame;
     while (true)

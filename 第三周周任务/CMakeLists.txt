@@ -12,6 +12,3 @@ add_executable(traffic_light traffic_light.cpp)
 
 target_link_libraries(traffic_light ${OpenCV_LIBS})
 
-set_target_properties(traffic_light PROPERTIES
-    RUNTIME_OUTPUT_DIRECTORY ${CMAKE_BINARY_DIR}/bin
-)

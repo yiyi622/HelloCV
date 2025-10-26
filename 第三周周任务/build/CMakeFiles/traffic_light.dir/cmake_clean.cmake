@@ -1,8 +1,8 @@
 file(REMOVE_RECURSE
   "CMakeFiles/traffic_light.dir/traffic_light.cpp.o"
   "CMakeFiles/traffic_light.dir/traffic_light.cpp.o.d"
-  "bin/traffic_light"
-  "bin/traffic_light.pdb"
+  "traffic_light"
+  "traffic_light.pdb"
 )
 
 # Per-language clean rules from dependency scanning.
