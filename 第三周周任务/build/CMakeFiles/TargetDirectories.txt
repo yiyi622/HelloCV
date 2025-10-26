@@ -1,0 +1,3 @@
+/home/wzd/mygit/第三周周任务/build/CMakeFiles/traffic_light.dir
+/home/wzd/mygit/第三周周任务/build/CMakeFiles/edit_cache.dir
+/home/wzd/mygit/第三周周任务/build/CMakeFiles/rebuild_cache.dir

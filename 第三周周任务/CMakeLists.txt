@@ -10,8 +10,8 @@ include_directories(${OpenCV_INCLUDE_DIRS})
 
 add_executable(traffic_light traffic_light.cpp)
 
-target_link_libraries(traffic_light ${OpenCV_LIRS})
+target_link_libraries(traffic_light ${OpenCV_LIBS})
 
-set_target_properties(traffic_light_detection PROPERTIES
+set_target_properties(traffic_light PROPERTIES
     RUNTIME_OUTPUT_DIRECTORY ${CMAKE_BINARY_DIR}/bin
 )
