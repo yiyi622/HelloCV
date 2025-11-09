@@ -1,0 +1,6 @@
+Invoking command in '/home/wzd/cpp/ROS2_node/build/demo_cpp_pkg': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/wzd/cpp/ROS2_node/demo_cpp_pkg -DCMAKE_INSTALL_PREFIX=/home/wzd/cpp/ROS2_node/install/demo_cpp_pkg
+Invoked command in '/home/wzd/cpp/ROS2_node/build/demo_cpp_pkg' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/wzd/cpp/ROS2_node/demo_cpp_pkg -DCMAKE_INSTALL_PREFIX=/home/wzd/cpp/ROS2_node/install/demo_cpp_pkg
+Invoking command in '/home/wzd/cpp/ROS2_node/build/demo_cpp_pkg': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/wzd/cpp/ROS2_node/build/demo_cpp_pkg -- -j16 -l16
+Invoked command in '/home/wzd/cpp/ROS2_node/build/demo_cpp_pkg' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/wzd/cpp/ROS2_node/build/demo_cpp_pkg -- -j16 -l16
+Invoking command in '/home/wzd/cpp/ROS2_node/build/demo_cpp_pkg': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/wzd/cpp/ROS2_node/build/demo_cpp_pkg
+Invoked command in '/home/wzd/cpp/ROS2_node/build/demo_cpp_pkg' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/wzd/cpp/ROS2_node/build/demo_cpp_pkg

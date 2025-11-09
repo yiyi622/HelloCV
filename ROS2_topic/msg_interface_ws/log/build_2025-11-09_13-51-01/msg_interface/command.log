@@ -1,0 +1,2 @@
+Invoking command in '/home/wzd/cpp/ROS2_topic/msg_interface_ws/build/msg_interface': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/wzd/cpp/ROS2_topic/msg_interface_ws/msg_interface -DCMAKE_INSTALL_PREFIX=/home/wzd/cpp/ROS2_topic/msg_interface_ws/install/msg_interface
+Invoked command in '/home/wzd/cpp/ROS2_topic/msg_interface_ws/build/msg_interface' returned '1': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/wzd/cpp/ROS2_topic/msg_interface_ws/msg_interface -DCMAKE_INSTALL_PREFIX=/home/wzd/cpp/ROS2_topic/msg_interface_ws/install/msg_interface

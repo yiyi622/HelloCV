@@ -1,0 +1,117 @@
+[0.000000] (-) TimerEvent: {}
+[0.000227] (demo_cpp_topic) JobQueued: {'identifier': 'demo_cpp_topic', 'dependencies': OrderedDict()}
+[0.000637] (demo_cpp_topic) JobStarted: {'identifier': 'demo_cpp_topic'}
+[0.005752] (demo_cpp_topic) JobProgress: {'identifier': 'demo_cpp_topic', 'progress': 'cmake'}
+[0.006169] (demo_cpp_topic) JobProgress: {'identifier': 'demo_cpp_topic', 'progress': 'build'}
+[0.006679] (demo_cpp_topic) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/wzd/cpp/ROS2_topic/topic_ws/build/demo_cpp_topic', '--', '-j16', '-l16'], 'cwd': '/home/wzd/cpp/ROS2_topic/topic_ws/build/demo_cpp_topic', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'zh_CN:zh'), ('USER', 'wzd'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/wzd'), ('OLDPWD', '/home/wzd'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('SYSTEMD_EXEC_PID', '1825'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'wzd'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'wzd'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/Wzd:@/tmp/.ICE-unix/1581,unix/Wzd:/tmp/.ICE-unix/1581'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/68c70f95_74b4_46a1_b3ec_a9cf55a67ade'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'zh_CN.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.WBROF3'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.191'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/wzd/cpp/ROS2_topic/topic_ws/build/demo_cpp_topic'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[0.035285] (demo_cpp_topic) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[0.099837] (-) TimerEvent: {}
+[0.141432] (demo_cpp_topic) StdoutLine: {'line': b'-- Found rclcpp: 16.0.15 (/opt/ros/humble/share/rclcpp/cmake)\n'}
+[0.169464] (demo_cpp_topic) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.7 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[0.172050] (demo_cpp_topic) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.7 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[0.178265] (demo_cpp_topic) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.7 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[0.186745] (demo_cpp_topic) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.197272] (demo_cpp_topic) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.199911] (-) TimerEvent: {}
+[0.227452] (demo_cpp_topic) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[0.228950] (demo_cpp_topic) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.9 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[0.299990] (-) TimerEvent: {}
+[0.316818] (demo_cpp_topic) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[0.360614] (demo_cpp_topic) StdoutLine: {'line': b'-- Found geometry_msgs: 4.9.0 (/opt/ros/humble/share/geometry_msgs/cmake)\n'}
+[0.371495] (demo_cpp_topic) StdoutLine: {'line': b'-- Found turtlesim: 1.4.3 (/opt/ros/humble/share/turtlesim/cmake)\n'}
+[0.400089] (-) TimerEvent: {}
+[0.405020] (demo_cpp_topic) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.12.14 (/opt/ros/humble/share/ament_lint_auto/cmake)\n'}
+[0.466645] (demo_cpp_topic) StdoutLine: {'line': b"-- Added test 'cppcheck' to perform static code analysis on C / C++ code\n"}
+[0.466846] (demo_cpp_topic) StdoutLine: {'line': b'-- Configured cppcheck include dirs: \n'}
+[0.466930] (demo_cpp_topic) StdoutLine: {'line': b'-- Configured cppcheck exclude dirs and/or files: \n'}
+[0.467309] (demo_cpp_topic) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[0.468248] (demo_cpp_topic) StdoutLine: {'line': b"-- Added test 'uncrustify' to check C / C++ code style\n"}
+[0.468331] (demo_cpp_topic) StdoutLine: {'line': b'-- Configured uncrustify additional arguments: \n'}
+[0.468558] (demo_cpp_topic) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[0.470061] (demo_cpp_topic) StdoutLine: {'line': b'-- Configuring done\n'}
+[0.483286] (demo_cpp_topic) StdoutLine: {'line': b'-- Generating done\n'}
+[0.487873] (demo_cpp_topic) StdoutLine: {'line': b'-- Build files have been written to: /home/wzd/cpp/ROS2_topic/topic_ws/build/demo_cpp_topic\n'}
+[0.500288] (-) TimerEvent: {}
+[0.513816] (demo_cpp_topic) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target turtle_circle\x1b[0m\n'}
+[0.522391] (demo_cpp_topic) StdoutLine: {'line': b'[ 25%] \x1b[32mBuilding CXX object CMakeFiles/turtle_control.dir/src/turtle_control.cpp.o\x1b[0m\n'}
+[0.530470] (demo_cpp_topic) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/turtle_circle.dir/src/turtle_circle.cpp.o\x1b[0m\n'}
+[0.600364] (-) TimerEvent: {}
+[0.700637] (-) TimerEvent: {}
+[0.800901] (-) TimerEvent: {}
+[0.901236] (-) TimerEvent: {}
+[1.001543] (-) TimerEvent: {}
+[1.101855] (-) TimerEvent: {}
+[1.202162] (-) TimerEvent: {}
+[1.302446] (-) TimerEvent: {}
+[1.402729] (-) TimerEvent: {}
+[1.502992] (-) TimerEvent: {}
+[1.603286] (-) TimerEvent: {}
+[1.703570] (-) TimerEvent: {}
+[1.803854] (-) TimerEvent: {}
+[1.904141] (-) TimerEvent: {}
+[2.004416] (-) TimerEvent: {}
+[2.104697] (-) TimerEvent: {}
+[2.204981] (-) TimerEvent: {}
+[2.305263] (-) TimerEvent: {}
+[2.319500] (demo_cpp_topic) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/c++/11/pstl/glue_algorithm_defs.h:13\x1b[m\x1b[K,\n'}
+[2.319700] (demo_cpp_topic) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/11/algorithm:74\x1b[m\x1b[K,\n'}
+[2.319770] (demo_cpp_topic) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:18\x1b[m\x1b[K,\n'}
+[2.319827] (demo_cpp_topic) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25\x1b[m\x1b[K,\n'}
+[2.319889] (demo_cpp_topic) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21\x1b[m\x1b[K,\n'}
+[2.319972] (demo_cpp_topic) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155\x1b[m\x1b[K,\n'}
+[2.320033] (demo_cpp_topic) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/wzd/cpp/ROS2_topic/topic_ws/demo_cpp_topic/src/turtle_control.cpp:2\x1b[m\x1b[K:\n'}
+[2.320090] (demo_cpp_topic) StderrLine: {'line': b'/usr/include/c++/11/functional: In instantiation of \xe2\x80\x98\x1b[01m\x1b[Kstruct std::_Bind_check_arity<void (TurtleContralNode::*)(std::shared_ptr<turtlesim::msg::Pose_<std::allocator<void> > >), TurtleContralNode*>\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[2.320146] (demo_cpp_topic) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/functional:768:12:\x1b[m\x1b[K   required from \xe2\x80\x98\x1b[01m\x1b[Kstruct std::_Bind_helper<false, void (TurtleContralNode::*)(std::shared_ptr<turtlesim::msg::Pose_<std::allocator<void> > >), TurtleContralNode*>\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.320201] (demo_cpp_topic) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/functional:789:5:\x1b[m\x1b[K   required by substitution of \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class _Func, class ... _BoundArgs> typename std::_Bind_helper<std::__is_socketlike<_Func>::value, _Func, _BoundArgs ...>::type std::bind(_Func&&, _BoundArgs&& ...) [with _Func = void (TurtleContralNode::*)(std::shared_ptr<turtlesim::msg::Pose_<std::allocator<void> > >); _BoundArgs = {TurtleContralNode*}]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.320257] (demo_cpp_topic) StderrLine: {'line': b'\x1b[01m\x1b[K/home/wzd/cpp/ROS2_topic/topic_ws/demo_cpp_topic/src/turtle_control.cpp:28:68:\x1b[m\x1b[K   required from here\n'}
+[2.320308] (demo_cpp_topic) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/functional:756:21:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kstatic assertion failed: Wrong number of arguments for pointer-to-member\n'}
+[2.320367] (demo_cpp_topic) StderrLine: {'line': b'  755 |       static_assert(_Varargs::\x1b[01;31m\x1b[Kvalue\x1b[m\x1b[K\n'}
+[2.320420] (demo_cpp_topic) StderrLine: {'line': b'      |                               \x1b[01;31m\x1b[K~~~~~\x1b[m\x1b[K\n'}
+[2.320471] (demo_cpp_topic) StderrLine: {'line': b'  756 | \x1b[01;31m\x1b[K                    ? sizeof...(_BoundArgs) >= _Arity::value + 1\x1b[m\x1b[K\n'}
+[2.320521] (demo_cpp_topic) StderrLine: {'line': b'      |                     \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[2.320572] (demo_cpp_topic) StderrLine: {'line': b'  757 | \x1b[01;31m\x1b[K                    : sizeof...(_BoundArgs) == _Arity::value + 1\x1b[m\x1b[K,\n'}
+[2.320621] (demo_cpp_topic) StderrLine: {'line': b'      |                     \x1b[01;31m\x1b[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[2.320670] (demo_cpp_topic) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/functional:756:21:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[K(false ? (1 >= (((long unsigned int)std::integral_constant<long unsigned int, 1>::value) + 1)) : (1 == (((long unsigned int)std::integral_constant<long unsigned int, 1>::value) + 1)))\x1b[m\x1b[K\xe2\x80\x99 evaluates to false\n'}
+[2.322066] (demo_cpp_topic) StderrLine: {'line': b'\x1b[01m\x1b[K/home/wzd/cpp/ROS2_topic/topic_ws/demo_cpp_topic/src/turtle_control.cpp:\x1b[m\x1b[K In constructor \xe2\x80\x98\x1b[01m\x1b[KTurtleContralNode::TurtleContralNode(const string&)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[2.322147] (demo_cpp_topic) StderrLine: {'line': b'\x1b[01m\x1b[K/home/wzd/cpp/ROS2_topic/topic_ws/demo_cpp_topic/src/turtle_control.cpp:27:63:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kno matching function for call to \xe2\x80\x98\x1b[01m\x1b[KTurtleContralNode::create_subscription<turtlesim::msg::Pose>(const char [14], int, std::_Bind_helper<false, void (TurtleContralNode::*)(std::shared_ptr<turtlesim::msg::Pose_<std::allocator<void> > >), TurtleContralNode*>::type, const std::_Placeholder<1>&)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.322202] (demo_cpp_topic) StderrLine: {'line': b'   27 |         subscriber = \x1b[01;31m\x1b[Kcreate_subscription<turtlesim::msg::Pose>("/turtle1/pose", 10,\x1b[m\x1b[K\n'}
+[2.322300] (demo_cpp_topic) StderrLine: {'line': b'      |                      \x1b[01;31m\x1b[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[2.322346] (demo_cpp_topic) StderrLine: {'line': b'   28 | \x1b[01;31m\x1b[K                                                               bind(&TurtleContralNode::on_pose_received, this), std::placeholders::_1)\x1b[m\x1b[K; //\xe5\x9b\x9e\xe8\xb0\x83\xe5\x87\xbd\xe6\x95\xb0\xe9\x87\x8c\xe5\xbc\x95\xe5\x85\xa5\xe4\xba\x86\xe5\x8f\x82\xe6\x95\xb0\xef\xbc\x8c\xe8\xbf\x99\xe9\x87\x8c\xe4\xb9\x9f\xe8\xa6\x81\xe5\x8d\xa0\xe4\xb8\x80\xe4\xbd\x8d\n'}
+[2.322391] (demo_cpp_topic) StderrLine: {'line': b'      |                                                                \x1b[01;31m\x1b[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[2.322434] (demo_cpp_topic) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors/single_threaded_executor.hpp:28\x1b[m\x1b[K,\n'}
+[2.322477] (demo_cpp_topic) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:22\x1b[m\x1b[K,\n'}
+[2.322518] (demo_cpp_topic) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155\x1b[m\x1b[K,\n'}
+[2.322563] (demo_cpp_topic) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/wzd/cpp/ROS2_topic/topic_ws/demo_cpp_topic/src/turtle_control.cpp:2\x1b[m\x1b[K:\n'}
+[2.322616] (demo_cpp_topic) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:219:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class MessageT, class CallbackT, class AllocatorT, class SubscriptionT, class MessageMemoryStrategyT> std::shared_ptr<ROSMessageT> rclcpp::Node::create_subscription(const string&, const rclcpp::QoS&, CallbackT&&, const rclcpp::SubscriptionOptionsWithAllocator<AllocatorT>&, typename MessageMemoryStrategyT::SharedPtr)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.322664] (demo_cpp_topic) StderrLine: {'line': b'  219 |   \x1b[01;36m\x1b[Kcreate_subscription\x1b[m\x1b[K(\n'}
+[2.322707] (demo_cpp_topic) StderrLine: {'line': b'      |   \x1b[01;36m\x1b[K^~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[2.322750] (demo_cpp_topic) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:219:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[2.322793] (demo_cpp_topic) StderrLine: {'line': b'\x1b[01m\x1b[K/home/wzd/cpp/ROS2_topic/topic_ws/demo_cpp_topic/src/turtle_control.cpp:27:63:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  \xe2\x80\x98\x1b[01m\x1b[Kconst std::_Placeholder<1>\x1b[m\x1b[K\xe2\x80\x99 is not derived from \xe2\x80\x98\x1b[01m\x1b[Kconst rclcpp::SubscriptionOptionsWithAllocator<AllocatorT>\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.322836] (demo_cpp_topic) StderrLine: {'line': b'   27 |         subscriber = \x1b[01;36m\x1b[Kcreate_subscription<turtlesim::msg::Pose>("/turtle1/pose", 10,\x1b[m\x1b[K\n'}
+[2.322888] (demo_cpp_topic) StderrLine: {'line': b'      |                      \x1b[01;36m\x1b[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[2.322942] (demo_cpp_topic) StderrLine: {'line': b'   28 | \x1b[01;36m\x1b[K                                                               bind(&TurtleContralNode::on_pose_received, this), std::placeholders::_1)\x1b[m\x1b[K; //\xe5\x9b\x9e\xe8\xb0\x83\xe5\x87\xbd\xe6\x95\xb0\xe9\x87\x8c\xe5\xbc\x95\xe5\x85\xa5\xe4\xba\x86\xe5\x8f\x82\xe6\x95\xb0\xef\xbc\x8c\xe8\xbf\x99\xe9\x87\x8c\xe4\xb9\x9f\xe8\xa6\x81\xe5\x8d\xa0\xe4\xb8\x80\xe4\xbd\x8d\n'}
+[2.323004] (demo_cpp_topic) StderrLine: {'line': b'      |                                                                \x1b[01;36m\x1b[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[2.405387] (-) TimerEvent: {}
+[2.505674] (-) TimerEvent: {}
+[2.605964] (-) TimerEvent: {}
+[2.706233] (-) TimerEvent: {}
+[2.806524] (-) TimerEvent: {}
+[2.906798] (-) TimerEvent: {}
+[2.908614] (demo_cpp_topic) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/turtle_control.dir/build.make:76\xef\xbc\x9aCMakeFiles/turtle_control.dir/src/turtle_control.cpp.o] \xe9\x94\x99\xe8\xaf\xaf 1\n'}
+[2.908816] (demo_cpp_topic) StderrLine: {'line': b'gmake[1]: *** [CMakeFiles/Makefile2:165\xef\xbc\x9aCMakeFiles/turtle_control.dir/all] \xe9\x94\x99\xe8\xaf\xaf 2\n'}
+[2.908880] (demo_cpp_topic) StderrLine: {'line': b'gmake[1]: *** \xe6\xad\xa3\xe5\x9c\xa8\xe7\xad\x89\xe5\xbe\x85\xe6\x9c\xaa\xe5\xae\x8c\xe6\x88\x90\xe7\x9a\x84\xe4\xbb\xbb\xe5\x8a\xa1....\n'}
+[3.006930] (-) TimerEvent: {}
+[3.107192] (-) TimerEvent: {}
+[3.207452] (-) TimerEvent: {}
+[3.307729] (-) TimerEvent: {}
+[3.407983] (-) TimerEvent: {}
+[3.508243] (-) TimerEvent: {}
+[3.608513] (-) TimerEvent: {}
+[3.708802] (-) TimerEvent: {}
+[3.720663] (demo_cpp_topic) StdoutLine: {'line': b'[ 75%] \x1b[32m\x1b[1mLinking CXX executable turtle_circle\x1b[0m\n'}
+[3.808912] (-) TimerEvent: {}
+[3.874760] (demo_cpp_topic) StdoutLine: {'line': b'[ 75%] Built target turtle_circle\n'}
+[3.875714] (demo_cpp_topic) StderrLine: {'line': b'gmake: *** [Makefile:146\xef\xbc\x9aall] \xe9\x94\x99\xe8\xaf\xaf 2\n'}
+[3.877609] (demo_cpp_topic) CommandEnded: {'returncode': 2}
+[3.885686] (demo_cpp_topic) JobEnded: {'identifier': 'demo_cpp_topic', 'rc': 2}
+[3.896276] (-) EventReactorShutdown: {}

@@ -1,0 +1,31 @@
+[0.014s] Invoking command in '/home/wzd/cpp/ROS2_topic/topic_ws/build/demo_cpp_topic': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/wzd/cpp/ROS2_topic/topic_ws/build/demo_cpp_topic -- -j16 -l16
+[0.105s] [35m[1mConsolidate compiler generated dependencies of target turtle_control[0m
+[0.119s] [ 25%] [32mBuilding CXX object CMakeFiles/turtle_circle.dir/src/turtle_circle.cpp.o[0m
+[0.122s] [ 50%] [32mBuilding CXX object CMakeFiles/turtle_control.dir/src/turtle_control.cpp.o[0m
+[4.497s] [ 75%] [32m[1mLinking CXX executable turtle_circle[0m
+[4.742s] [ 75%] Built target turtle_circle
+[8.017s] [100%] [32m[1mLinking CXX executable turtle_control[0m
+[8.367s] [100%] Built target turtle_control
+[8.388s] Invoked command in '/home/wzd/cpp/ROS2_topic/topic_ws/build/demo_cpp_topic' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/wzd/cpp/ROS2_topic/topic_ws/build/demo_cpp_topic -- -j16 -l16
+[8.398s] Invoking command in '/home/wzd/cpp/ROS2_topic/topic_ws/build/demo_cpp_topic': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/wzd/cpp/ROS2_topic/topic_ws/build/demo_cpp_topic
+[8.414s] -- Install configuration: ""
+[8.415s] -- Installing: /home/wzd/cpp/ROS2_topic/topic_ws/install/demo_cpp_topic/lib/demo_cpp_topic/turtle_circle
+[8.415s] -- Set runtime path of "/home/wzd/cpp/ROS2_topic/topic_ws/install/demo_cpp_topic/lib/demo_cpp_topic/turtle_circle" to ""
+[8.415s] -- Installing: /home/wzd/cpp/ROS2_topic/topic_ws/install/demo_cpp_topic/lib/demo_cpp_topic/turtle_control
+[8.420s] -- Set runtime path of "/home/wzd/cpp/ROS2_topic/topic_ws/install/demo_cpp_topic/lib/demo_cpp_topic/turtle_control" to ""
+[8.420s] -- Up-to-date: /home/wzd/cpp/ROS2_topic/topic_ws/install/demo_cpp_topic/share/ament_index/resource_index/package_run_dependencies/demo_cpp_topic
+[8.420s] -- Up-to-date: /home/wzd/cpp/ROS2_topic/topic_ws/install/demo_cpp_topic/share/ament_index/resource_index/parent_prefix_path/demo_cpp_topic
+[8.420s] -- Up-to-date: /home/wzd/cpp/ROS2_topic/topic_ws/install/demo_cpp_topic/share/demo_cpp_topic/environment/ament_prefix_path.sh
+[8.420s] -- Up-to-date: /home/wzd/cpp/ROS2_topic/topic_ws/install/demo_cpp_topic/share/demo_cpp_topic/environment/ament_prefix_path.dsv
+[8.420s] -- Up-to-date: /home/wzd/cpp/ROS2_topic/topic_ws/install/demo_cpp_topic/share/demo_cpp_topic/environment/path.sh
+[8.420s] -- Up-to-date: /home/wzd/cpp/ROS2_topic/topic_ws/install/demo_cpp_topic/share/demo_cpp_topic/environment/path.dsv
+[8.420s] -- Up-to-date: /home/wzd/cpp/ROS2_topic/topic_ws/install/demo_cpp_topic/share/demo_cpp_topic/local_setup.bash
+[8.420s] -- Up-to-date: /home/wzd/cpp/ROS2_topic/topic_ws/install/demo_cpp_topic/share/demo_cpp_topic/local_setup.sh
+[8.421s] -- Up-to-date: /home/wzd/cpp/ROS2_topic/topic_ws/install/demo_cpp_topic/share/demo_cpp_topic/local_setup.zsh
+[8.421s] -- Up-to-date: /home/wzd/cpp/ROS2_topic/topic_ws/install/demo_cpp_topic/share/demo_cpp_topic/local_setup.dsv
+[8.421s] -- Installing: /home/wzd/cpp/ROS2_topic/topic_ws/install/demo_cpp_topic/share/demo_cpp_topic/package.dsv
+[8.421s] -- Up-to-date: /home/wzd/cpp/ROS2_topic/topic_ws/install/demo_cpp_topic/share/ament_index/resource_index/packages/demo_cpp_topic
+[8.421s] -- Up-to-date: /home/wzd/cpp/ROS2_topic/topic_ws/install/demo_cpp_topic/share/demo_cpp_topic/cmake/demo_cpp_topicConfig.cmake
+[8.421s] -- Up-to-date: /home/wzd/cpp/ROS2_topic/topic_ws/install/demo_cpp_topic/share/demo_cpp_topic/cmake/demo_cpp_topicConfig-version.cmake
+[8.421s] -- Up-to-date: /home/wzd/cpp/ROS2_topic/topic_ws/install/demo_cpp_topic/share/demo_cpp_topic/package.xml
+[8.423s] Invoked command in '/home/wzd/cpp/ROS2_topic/topic_ws/build/demo_cpp_topic' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/wzd/cpp/ROS2_topic/topic_ws/build/demo_cpp_topic

@@ -1,0 +1,35 @@
+[0.008s] Invoking command in '/home/wzd/cpp/ROS2_topic/msg_interface_ws/build/msg_interface': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/wzd/cpp/ROS2_topic/msg_interface_ws/msg_interface -DCMAKE_INSTALL_PREFIX=/home/wzd/cpp/ROS2_topic/msg_interface_ws/install/msg_interface
+[0.123s] -- The C compiler identification is GNU 11.4.0
+[0.167s] -- The CXX compiler identification is GNU 11.4.0
+[0.181s] -- Detecting C compiler ABI info
+[0.241s] -- Detecting C compiler ABI info - done
+[0.246s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.247s] -- Detecting C compile features
+[0.247s] -- Detecting C compile features - done
+[0.250s] -- Detecting CXX compiler ABI info
+[0.313s] -- Detecting CXX compiler ABI info - done
+[0.318s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.319s] -- Detecting CXX compile features
+[0.319s] -- Detecting CXX compile features - done
+[0.322s] -- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.440s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.528s] [31mCMake Error at CMakeLists.txt:10 (find_package):
+[0.528s]   By not providing "Findbuiltin_interface.cmake" in CMAKE_MODULE_PATH this
+[0.528s]   project has asked CMake to find a package configuration file provided by
+[0.528s]   "builtin_interface", but CMake did not find one.
+[0.528s] 
+[0.528s]   Could not find a package configuration file provided by "builtin_interface"
+[0.528s]   with any of the following names:
+[0.528s] 
+[0.528s]     builtin_interfaceConfig.cmake
+[0.528s]     builtin_interface-config.cmake
+[0.529s] 
+[0.529s]   Add the installation prefix of "builtin_interface" to CMAKE_PREFIX_PATH or
+[0.529s]   set "builtin_interface_DIR" to a directory containing one of the above
+[0.529s]   files.  If "builtin_interface" provides a separate development package or
+[0.529s]   SDK, be sure it has been installed.
+[0.529s] 
+[0.529s] [0m
+[0.529s] -- Configuring incomplete, errors occurred!
+[0.529s] See also "/home/wzd/cpp/ROS2_topic/msg_interface_ws/build/msg_interface/CMakeFiles/CMakeOutput.log".
+[0.532s] Invoked command in '/home/wzd/cpp/ROS2_topic/msg_interface_ws/build/msg_interface' returned '1': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/wzd/cpp/ROS2_topic/msg_interface_ws/msg_interface -DCMAKE_INSTALL_PREFIX=/home/wzd/cpp/ROS2_topic/msg_interface_ws/install/msg_interface

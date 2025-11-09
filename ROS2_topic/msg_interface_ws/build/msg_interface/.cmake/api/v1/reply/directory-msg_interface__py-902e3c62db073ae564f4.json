@@ -1,0 +1,14 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : [],
+		"files" : [],
+		"nodes" : []
+	},
+	"installers" : [],
+	"paths" : 
+	{
+		"build" : "msg_interface__py",
+		"source" : "/home/wzd/cpp/ROS2_topic/msg_interface_ws/build/msg_interface/msg_interface__py"
+	}
+}

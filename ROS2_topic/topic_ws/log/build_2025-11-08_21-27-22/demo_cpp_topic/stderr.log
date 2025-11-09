@@ -1,0 +1,42 @@
+In file included from [01m[K/usr/include/c++/11/pstl/glue_algorithm_defs.h:13[m[K,
+                 from [01m[K/usr/include/c++/11/algorithm:74[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:18[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+                 from [01m[K/home/wzd/cpp/ROS2_topic/topic_ws/demo_cpp_topic/src/turtle_control.cpp:2[m[K:
+/usr/include/c++/11/functional: In instantiation of ‘[01m[Kstruct std::_Bind_check_arity<void (TurtleContralNode::*)(std::shared_ptr<turtlesim::msg::Pose_<std::allocator<void> > >), TurtleContralNode*>[m[K’:
+[01m[K/usr/include/c++/11/functional:768:12:[m[K   required from ‘[01m[Kstruct std::_Bind_helper<false, void (TurtleContralNode::*)(std::shared_ptr<turtlesim::msg::Pose_<std::allocator<void> > >), TurtleContralNode*>[m[K’
+[01m[K/usr/include/c++/11/functional:789:5:[m[K   required by substitution of ‘[01m[Ktemplate<class _Func, class ... _BoundArgs> typename std::_Bind_helper<std::__is_socketlike<_Func>::value, _Func, _BoundArgs ...>::type std::bind(_Func&&, _BoundArgs&& ...) [with _Func = void (TurtleContralNode::*)(std::shared_ptr<turtlesim::msg::Pose_<std::allocator<void> > >); _BoundArgs = {TurtleContralNode*}][m[K’
+[01m[K/home/wzd/cpp/ROS2_topic/topic_ws/demo_cpp_topic/src/turtle_control.cpp:28:68:[m[K   required from here
+[01m[K/usr/include/c++/11/functional:756:21:[m[K [01;31m[Kerror: [m[Kstatic assertion failed: Wrong number of arguments for pointer-to-member
+  755 |       static_assert(_Varargs::[01;31m[Kvalue[m[K
+      |                               [01;31m[K~~~~~[m[K
+  756 | [01;31m[K                    ? sizeof...(_BoundArgs) >= _Arity::value + 1[m[K
+      |                     [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+  757 | [01;31m[K                    : sizeof...(_BoundArgs) == _Arity::value + 1[m[K,
+      |                     [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/usr/include/c++/11/functional:756:21:[m[K [01;36m[Knote: [m[K‘[01m[K(false ? (1 >= (((long unsigned int)std::integral_constant<long unsigned int, 1>::value) + 1)) : (1 == (((long unsigned int)std::integral_constant<long unsigned int, 1>::value) + 1)))[m[K’ evaluates to false
+[01m[K/home/wzd/cpp/ROS2_topic/topic_ws/demo_cpp_topic/src/turtle_control.cpp:[m[K In constructor ‘[01m[KTurtleContralNode::TurtleContralNode(const string&)[m[K’:
+[01m[K/home/wzd/cpp/ROS2_topic/topic_ws/demo_cpp_topic/src/turtle_control.cpp:27:63:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[KTurtleContralNode::create_subscription<turtlesim::msg::Pose>(const char [14], int, std::_Bind_helper<false, void (TurtleContralNode::*)(std::shared_ptr<turtlesim::msg::Pose_<std::allocator<void> > >), TurtleContralNode*>::type, const std::_Placeholder<1>&)[m[K’
+   27 |         subscriber = [01;31m[Kcreate_subscription<turtlesim::msg::Pose>("/turtle1/pose", 10,[m[K
+      |                      [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~[m[K
+   28 | [01;31m[K                                                               bind(&TurtleContralNode::on_pose_received, this), std::placeholders::_1)[m[K; //回调函数里引入了参数，这里也要占一位
+      |                                                                [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/single_threaded_executor.hpp:28[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:22[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+                 from [01m[K/home/wzd/cpp/ROS2_topic/topic_ws/demo_cpp_topic/src/turtle_control.cpp:2[m[K:
+[01m[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:219:3:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class MessageT, class CallbackT, class AllocatorT, class SubscriptionT, class MessageMemoryStrategyT> std::shared_ptr<ROSMessageT> rclcpp::Node::create_subscription(const string&, const rclcpp::QoS&, CallbackT&&, const rclcpp::SubscriptionOptionsWithAllocator<AllocatorT>&, typename MessageMemoryStrategyT::SharedPtr)[m[K’
+  219 |   [01;36m[Kcreate_subscription[m[K(
+      |   [01;36m[K^~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:219:3:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/wzd/cpp/ROS2_topic/topic_ws/demo_cpp_topic/src/turtle_control.cpp:27:63:[m[K [01;36m[Knote: [m[K  ‘[01m[Kconst std::_Placeholder<1>[m[K’ is not derived from ‘[01m[Kconst rclcpp::SubscriptionOptionsWithAllocator<AllocatorT>[m[K’
+   27 |         subscriber = [01;36m[Kcreate_subscription<turtlesim::msg::Pose>("/turtle1/pose", 10,[m[K
+      |                      [01;36m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~[m[K
+   28 | [01;36m[K                                                               bind(&TurtleContralNode::on_pose_received, this), std::placeholders::_1)[m[K; //回调函数里引入了参数，这里也要占一位
+      |                                                                [01;36m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+gmake[2]: *** [CMakeFiles/turtle_control.dir/build.make:76：CMakeFiles/turtle_control.dir/src/turtle_control.cpp.o] 错误 1
+gmake[1]: *** [CMakeFiles/Makefile2:165：CMakeFiles/turtle_control.dir/all] 错误 2
+gmake[1]: *** 正在等待未完成的任务....
+gmake: *** [Makefile:146：all] 错误 2

@@ -1,0 +1,5 @@
+[0.008s] Invoking command in '/home/wzd/cpp/ROS2_topic/msg_interface_ws/build/msg_interface': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/wzd/cpp/ROS2_topic/msg_interface_ws/build/msg_interface -- -j16 -l16
+[0.023s] [0mCMake Error: The source directory "/home/wzd/cpp/ROS2_topic/msg_interface_ws/msg_interface" does not exist.
+[0.024s] Specify --help for usage, or press the help button on the CMake GUI.[0m
+[0.024s] gmake: *** [Makefile:747：cmake_check_build_system] 错误 1
+[0.026s] Invoked command in '/home/wzd/cpp/ROS2_topic/msg_interface_ws/build/msg_interface' returned '2': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/wzd/cpp/ROS2_topic/msg_interface_ws/build/msg_interface -- -j16 -l16
